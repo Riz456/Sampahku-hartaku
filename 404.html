@@ -1,1 +1,105 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halaman Tidak Ditemukan</title>
+
+  <style>
+    :root{
+      --bg:#f3f4ef;
+      --accent:#869268;
+      --accent-2:#cfd6c6;
+      --card:#ffffff;
+    }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:"Inter",sans-serif;
+    }
+
+    body{
+      background:var(--bg);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      padding:20px;
+      color:#1b1b1b;
+    }
+
+    .box{
+      background:rgba(255,255,255,0.95);
+      padding:50px 60px;
+      border-radius:18px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.12);
+      backdrop-filter:blur(6px);
+      text-align:center;
+      max-width:450px;
+      animation:fadeIn .4s ease forwards;
+    }
+
+    .box h1{
+      font-size:90px;
+      font-weight:800;
+      background:linear-gradient(90deg,#6e7a53,#2d2d2d);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      margin-bottom:10px;
+    }
+
+    .box p{
+      font-size:18px;
+      line-height:1.6;
+      margin-bottom:28px;
+    }
+
+    a.btn{
+      display:inline-block;
+      padding:12px 22px;
+      background:var(--accent);
+      color:#fff;
+      border-radius:10px;
+      font-weight:600;
+      text-decoration:none;
+      transition:.25s;
+    }
+
+    a.btn:hover{
+      background:#6e7a53;
+      transform:translateY(-2px);
+    }
+
+    @keyframes fadeIn{
+      from {opacity:0;transform:translateY(10px);}
+      to {opacity:1;transform:translateY(0);}
+    }
+
+    @media(max-width:500px){
+      .box{
+        padding:40px 30px;
+      }
+      .box h1{
+        font-size:70px;
+      }
+      .box p{
+        font-size:16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="box">
+    <h1>404</h1>
+    <p>Upss, halaman yang kamu cari tidak ditemukan.<br>
+    Mungkin link-nya salah atau sudah dipindahkan.</p>
+
+    <a href="index.html" class="btn">Kembali ke Beranda</a>
+  </div>
+
+</body>
+</html>
