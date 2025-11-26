@@ -843,6 +843,8 @@ body {
   gap: 18px;
   justify-content: center;
   margin-top: 25px;
+  position: relative;
+  z-index: 999;
 }
 
 .icons a {
