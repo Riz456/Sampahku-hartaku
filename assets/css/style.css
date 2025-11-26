@@ -229,7 +229,7 @@ body {
 }
 
 #masalah h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0;
   color: white;
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -689,6 +689,10 @@ body {
   font-weight: 500;
 }
 
+.judul {
+  text-align: center;
+}
+
 .mapel-text {
   background: rgba(255, 255, 255, 0.7);
   margin-top: 35px;
@@ -701,6 +705,10 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
   transition: var(--transition);
+  text-indent: 30px;
+}
+.copy {
+  text-align: right;
 }
 
 .team {
