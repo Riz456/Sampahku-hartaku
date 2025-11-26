@@ -33,7 +33,7 @@ body {
       top:18px;
       left:50%;
       transform:translateX(-50%);
-      z-index:100;
+      z-index:999;
       background:rgba(255,255,255,0.95);
       border-radius:999px;
       box-shadow:0 6px 20px rgba(17,17,17,0.08);
@@ -844,7 +844,7 @@ body {
   justify-content: center;
   margin-top: 25px;
   position: relative;
-  z-index: 999;
+  z-index: 890;
 }
 
 .icons a {
